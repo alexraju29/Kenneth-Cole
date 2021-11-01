@@ -1,4 +1,236 @@
 *{
-    margin: 0;
+   margin: 0;
     padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#main-page{
+    width: 100%;
+/*    background-color: aquamarine;*/
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.top-section{
+    position: relative;
+    top: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 2.8em;
+}
+.logo{
+    width: 50%;
+    float: left;
+    
+}
+.logo-image{
+    width: 28%;
+    margin-left: 20px
+}
+.nav-bar{
+    width: 50%;
+    float: left;
+}
+.nav-container{
+    padding-left: 210px;
+    padding-top: 12px;
+}
+.main-nav{
+    
+}
+.nav-item{
+    display: inline;
+    padding-left: 40px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+}
+.nav-item :hover{
+    
+    color: black;
+}
+.main-content{
+    
+    margin-top: 20px;
+    height: 90vh;
+    
+}
+.left{
+    width: 50%;
+    float:left;
+/*    background-color: chartreuse;*/
+   
+}
+.left-content{
+   margin-top: 180px;
+}
+.left-content p{
+    padding-left: 60px;
+     font-size: 30px;
+    padding-bottom: 20px
+}
+.ken{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.btn{
+    margin-top: 0px;
+    margin-left: 50px;
+}
+.knowmore-button{
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.right{
+    width: 50%;
+    float: left;
+    text-align: center
+    
+}
+.right img{
+    width: 45%;
+    margin-top: 30px;
+    
+}
+
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+#about{
+    height: 100vh;
+    padding-top: 40px
+}
+.about-left{
+    width: 50%;
+    float: left;
+    
+}
+.about-left img{
+    width: 32%;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.about-right{
+     width: 50%;
+    float: left;
+}
+.about-right p{
+    padding-top: 35px;
+    margin-right: 150px;
+    line-height: 30px
+}
+.btn2{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.knowmore-button2{
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+#products{
+     width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+    text-align: center
+}
+.product-heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+.product-section{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center
+}
+.product-left{
+    width: 33.33%;
+    float: left;
+}
+.product-left img{
+    width: 28%;
+}
+.product-left h6{
+    margin-top: 10px;
+}
+
+.product-middle{
+    width: 33.33%;
+    float: left;
+}
+.product-middle img{
+    width: 28%;
+   
+}
+.product-middle h6{
+    margin-top: 40px;
+}
+
+.product-right{
+    width: 33.33%;
+    float: left;
+}
+.product-right img{
+    width: 28%;
+}
+.product-right h6{
+    margin-top: 40px;
+}
+
+
+
+.product-section2{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center
+}
+.product-left2{
+    width: 33.33%;
+    float: left;
+    
+}
+.product-left2 img{
+    width: 28%;
+}
+.product-left2 h6{
+    margin-top: 10px;
+}
+
+.product-middle2{
+    width: 33.33%;
+    float: left;
+}
+.product-middle2 img{
+    width: 28%;
+   
+}
+.product-middl2e h6{
+    margin-top: 44px;
+}
+
+.product-right2{
+    width: 33.33%;
+    float: left;
+}
+.product-right2 img{
+    width: 28%;
+}
+.product-right2 h6{
+    margin-top: 10px;
 }
