@@ -346,9 +346,28 @@ footer p{
 
 /*---------------------------------Media-queary-------------------------*/
 
-@media only screen and (max-width: 600px) {
-  
-    .nav-bar{
-        display: none;
+@media only screen and (max-width: 1024px) {
+    
+    .logo{
+        width: 35%;
     }
+    .logo-image{
+        width: 60%;
+        margin-left: 50px;
+}
+    .nav-bar{
+        
+        width: 75%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .contact-left{
+    padding-right: 50px;
+   
+}
 }
