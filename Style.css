@@ -95,10 +95,10 @@ body{
     background: rgba(38 38 38);
     border-color: transparent;
     border-radius: 20px;
-    transition-delay: .5s;
+    transition-delay: .02s;
 }
 .knowmore-button:hover{
-    background-color: #ddd;
+    background-color: dimgray;
 }
 .right{
     width: 50%;
@@ -487,10 +487,10 @@ footer p{
     background: rgba(38 38 38);
     border-color: transparent;
     border-radius: 20px;
-    transition-delay: .5s;
+    transition-delay: .02s;
 }
 .knowmore-button:hover{
-    background-color: gray;
+    background-color: dimgray;
 }
 .right{
     width: 100%;
