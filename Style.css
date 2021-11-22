@@ -98,7 +98,7 @@ body{
     transition-delay: .5s;
 }
 .knowmore-button:hover{
-    background-color: gray;
+    background-color: #ddd;
 }
 .right{
     width: 50%;
@@ -359,8 +359,43 @@ footer p{
         
         width: 75%;
     }
+   .right img{
+    width: 60%;
+    margin-top: 50px;
     
     
+} 
+    
+    .about-left img{
+    width: 42%;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+    
+    
+    
+    
+    
+    .product-left img{
+    width: 25%;
+}
+.product-middle img{
+    width: 25%;
+   
+}
+.product-right img{
+    width: 25%;
+}
+.product-left2 img{
+    width: 25%;
+}
+.product-middle2 img{
+    width: 25%;
+   
+}
+.product-right2 img{
+    width: 25%;
+}
     
     
     
@@ -370,4 +405,103 @@ footer p{
     padding-right: 50px;
    
 }
+    .input-field{
+    border-radius: 10px;
+    border-color: transparent;
+    padding-right: 190px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+    
+    .contact-right{
+    width: 30%;
+   
+    
+}
+}
+
+
+
+
+
+
+
+/*---------------------------------Media-queary-------------------------*/
+
+
+
+@media only screen and (max-width: 424px) {
+    
+    
+    .logo{
+        width: 35%;
+    }
+    .logo-image{
+        width: 140%;
+        margin-left: 100px;
+}
+    .nav-bar{
+        display: none;
+        width: 75%;
+    }
+    
+    
+    
+    
+    
+    
+    /*---------------------Main-Section-------------------------------*/
+
+   
+.main-content{
+    
+    margin-top: 60px;
+   
+}
+    .left{
+        width: 100%;
+    }
+.left-content{
+   margin-top: 100px;
+}
+.left-content p{
+    padding-left: 60px;
+     font-size: 20px;
+    padding-bottom: 20px
+}
+.ken{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.btn{
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.knowmore-button{
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: rgba(38 38 38);
+    border-color: transparent;
+    border-radius: 20px;
+    transition-delay: .5s;
+}
+.knowmore-button:hover{
+    background-color: gray;
+}
+.right{
+    width: 100%;
+    float: none;
+    text-align: center;   
+}
+.right img{
+    width: 95%;
+    margin-top: 30px;
+    
+    
+}
+    
 }
